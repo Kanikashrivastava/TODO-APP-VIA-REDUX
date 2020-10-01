@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 import "./App.css";
-import Task from "./app/components/Task/Task";
 import { useTasks } from "./app/slices/tasks/taskSlice";
 import { useColors } from "./app/slices/colors/colorSlice";
 import { TaskSection } from "./app/components/TaskSection/TaskSection";
